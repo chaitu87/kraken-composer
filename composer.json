@@ -1,0 +1,19 @@
+{
+    "name": "chaithanyapadi/kraken-composer",
+    "description": "Composer plugin to use kraken.io Image Compression",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "WebVigilate",
+            "email": "chaithanya.padi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "KrakenComposer\\Kraken\\": "src"
+        }
+    }
+}
